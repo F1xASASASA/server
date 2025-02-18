@@ -3,13 +3,14 @@
 <link href="haku.css" rel="stylesheet">
 <link href="public/styles.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <style>
     body {
         font-family: 'Unbounded', sans-serif;
     }
 </style>
 <link rel="icon" type="image/png" href="fav.png">
-<html lang="ru" data-theme="SoraCraft">
+<html lang="ru" data-theme="haku">
 
 <head>
     <meta charset="UTF-8">
@@ -17,9 +18,9 @@
         content="Приватный модовый сервер Minecraft. Присоединяйтесь к нашему активному сообществу и наслаждайтесь игрой на высокопроизводительном сервере с стабильным TPS.">
     <meta name="keywords"
         content="Minecraft сервер, приватный сервер, Модовый сервер, Minecraft, Скитания путника, сервер, игровой сервер, онлайн игра, Minecraft сообщество">
-    <meta name="author" content="SoraCraft">
+    <meta name="author" content="HAKU">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Модовый сервер Minecraft - SoraCraft</title>
+    <title>Модовый сервер Minecraft -SoraCraft</title>
 </head>
 
 <body>
@@ -87,7 +88,7 @@
   </div>
   <div class="navbar-center max-md:hidden">
     <ul class="menu menu-horizontal p-0 font-medium">
-      <li><a href="https://drive.google.com/file/d/1dWvCJPmS4z-O12X05kWxR73qnBwyGSPZ/view">Сборка</a></li>
+      <li><a href="https://minecraft-inside.ru/modpacks/181950-skitaniya-putnika.html?ysclid=m77dronwda813291820">Сборка</a></li>
       <li><a href="https://t.me/+mP5f2Ni4sP1hMDUy">Телеграм</a></li>
       <li><a href="https://discord.gg/CbeyaPXJJ3">Дискорд</a></li>
     </ul>
@@ -110,12 +111,12 @@
 
         <div class="absolute top-0 left-0 w-full h-full bg-black/50"></div>
 
-<div class="relative z-10 h-full flex flex-col items-center justify-center text-white">
+        <div class="relative z-10 h-full flex flex-col items-center justify-center text-white">
             <h1 class="text-4xl md:text-4xl font-bold mb-8 text-center motion-preset-shrink">
                 Приватный модовый сервер по Minecraft
             </h1>
         
-            <a href="panel.html">
+            <a href="https://t.me/+mP5f2Ni4sP1hMDUyl">
                 <button class="btn btn-primary rounded-lg btn-lg mb-4">
                     <p>Начать играть</p>
                 </button>
@@ -143,6 +144,15 @@
                 </button>
               </div>
             </div>
+            
+            <script>
+              function toggleModal() {
+                const modal = document.getElementById('modal');
+                modal.classList.toggle('hidden');
+              }
+            </script>
+        </div>
+    </div>
 
     <div class="bg-[#0D0D0D] py-12">
         <div class="container mx-auto px-4">
@@ -226,17 +236,17 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div
                     class="bg-[#141414] h-[200px] p-6 rounded-lg shadow-md text-center flex flex-col justify-center items-center">
-                    <h2 class="text-2xl font-bold mb-2 text-yellow-400">215</h2>
+                    <h2 class="text-2xl font-bold mb-2 text-yellow-400">число</h2>
                     <p class="text-neutral-content">Зарегистрировано игроков</p>
                 </div>
                 <div
                     class="bg-[#141414] h-[200px] p-6 rounded-lg shadow-md text-center flex flex-col justify-center items-center">
-                    <h2 class="text-2xl font-bold mb-2 text-blue-300">1 год</h2>
+                    <h2 class="text-2xl font-bold mb-2 text-blue-300">дата</h2>
                     <p class="text-neutral-content">Возраст проекта</p>
                 </div>
                 <div
                     class="bg-[#141414] h-[200px] p-6 rounded-lg shadow-md text-center flex flex-col justify-center items-center">
-                    <h2 class="text-2xl font-bold mb-2 text-accent">15.02.2025</h2>
+                    <h2 class="text-2xl font-bold mb-2 text-accent">дата</h2>
                     <p class="text-neutral-content">Последний вайп</p>
                 </div>
                 <div
@@ -345,48 +355,6 @@
             </div>
         </div>
     </div>
-    <!-- 
-    <div class="bg-[#0D0D0D] mt-4">
-        <div class="container mx-auto px-4">
-            <div id="image" data-carousel='{ "loadingClasses": "opacity-0" }' class="relative h-[500px]">
-                <div class="carousel">
-                    <div class="carousel-body h-full opacity-0">
-                        <div class="carousel-slide">
-                            <div class="flex h-full justify-center">
-                                <img src="./public/screens/3.png" class="size-full object-cover" alt="game" />
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="flex h-full justify-center">
-                                <img src="./public/screens/2.png" class="size-full object-cover" alt="game" />
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="flex h-full justify-center">
-                                <img src="./public/screens/4.png" class="size-full object-cover" alt="game" />
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <button type="button" class="carousel-prev">
-                    <span class="size-9.5 bg-base-100 flex items-center justify-center rounded-full shadow">
-                        <span class="icon-[tabler--chevron-left] size-5 cursor-pointer rtl:rotate-180"></span>
-                    </span>
-                    <span class="sr-only">Назад</span>
-                </button>
-                <button type="button" class="carousel-next">
-                    <span class="sr-only">След</span>
-                    <span class="size-9.5 bg-base-100 flex items-center justify-center rounded-full shadow">
-                        <span class="icon-[tabler--chevron-right] size-5 cursor-pointer rtl:rotate-180"></span>
-                    </span>
-                </button>
-            </div>
-        </div>
-    </div>
-    -->
-
-
 
                 <div class="relative h-60 w-full">
 
@@ -394,7 +362,7 @@
   <footer class="footer bg-black absolute -bottom-px start-0 w-full px-6 py-4">
     <div class="flex flex-col md:flex-row items-center justify-between">
       <aside class="text-center md:text-left mb-4 md:mb-0">
-        <p>©2025 <a class="link link-hover font-medium" href="index.html">SoraCraft</a></p>
+        <p>©2025 <a class="link link-hover font-medium" href="index.html">SorCraft</a></p>
       </aside>
       <nav class="flex flex-col md:flex-row items-start gap-4">
         <a class="link link-hover" href="https://t.me/+mP5f2Ni4sP1hMDUy">телега</a>
